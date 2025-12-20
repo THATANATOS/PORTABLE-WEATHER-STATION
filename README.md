@@ -15,7 +15,13 @@ The system is designed to convert forecast data—such as rain probability and g
 
 - **Red LED + Buzzer:** Intended to activate when rainfall is predicted. Alert frequency and buzzer patterns are planned to scale with rain probability or severity, providing a graded warning rather than a single binary alert.
 - **Green LED:** Intended to indicate normal, clear, or sunny weather conditions, offering a quick visual confirmation of stable weather.
+- GPS-Based Location Detection (GY-NEO6MV2 / NEO-6M)
+- This module will allow the system to determine its geographic location independently, without relying solely on network-based positioning.
+- Accurate latitude and longitude data will be used to Automatically select the correct location-based forecast from the weather API. Improve forecast accuracy when compared to manually configured or region-based data. Maintain location awareness even when Wi-Fi is unavailable.
 
+The planned GPS integration will combine local hardware-based positioning with API-based weather data, enabling more precise and autonomous operation, particularly in portable or outdoor deployments.
+  
+  
 This feature is not yet implemented in the current codebase and is reserved for a future update once forecast evaluation logic and alert thresholds are finalized.
 Once implemented, this system will be configurable and designed to integrate cleanly with both offline sensor data trends and online forecast inputs, further enhancing usability while maintaining low power consumption.
 
