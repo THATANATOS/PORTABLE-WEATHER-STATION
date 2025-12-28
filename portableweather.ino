@@ -77,8 +77,8 @@
 
 // Default credentials - used only for quick auto-connect attempt
 // If you want no auto-try, set these to empty strings ("")
-#define DEFAULT_WIFI_SSID     "PLDTHOMEFIBRq2tdf"
-#define DEFAULT_WIFI_PASSWORD "PLDTWIFImk6t9"
+#define DEFAULT_WIFI_SSID     " WIFI SSID"
+#define DEFAULT_WIFI_PASSWORD "WIFI PASSWORD"
 
 // Pin assignments (updated down button to GPIO32 as requested)
 #define TFT_CS    5
